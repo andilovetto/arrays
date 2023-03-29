@@ -19,8 +19,13 @@ p floats
 booleans.unshift(false)
 p booleans
 
-index positions:
-hello = ["hi", "hey", "waddup", "greetings"]
-the string "hi" is in index position 0
-the string "waddup" is in index position 2
-the value of the element in index position 1 is "hey" 
+#index positions:
+#hello = ["hi", "hey", "waddup", "greetings"]
+#the string "hi" is in index position 0
+#the string "waddup" is in index position 2
+#the value of the element in index position 1 is "hey" 
+
+# calls the slice method on the numbers array -  delets the element in given index position (index position 0, deleting integer 27)
+numbers = [27, 18, 19, 22, 49]
+numbers.slice!(0)
+p numbers
