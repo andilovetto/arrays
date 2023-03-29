@@ -18,3 +18,9 @@ p floats
 # calls the unshift method on the booleans array -  adds object to the front of array, moving all elements upwards
 booleans.unshift(false)
 p booleans
+
+index positions:
+hello = ["hi", "hey", "waddup", "greetings"]
+the string "hi" is in index position 0
+the string "waddup" is in index position 2
+the value of the element in index position 1 is "hey" 
